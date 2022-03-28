@@ -11,6 +11,7 @@
   inputs.src-dnsprotec-master.ref   = "refs/heads/master";
   inputs.src-dnsprotec-master.owner = "juancarlospaco";
   inputs.src-dnsprotec-master.repo  = "nim-dnsprotec";
+  inputs.src-dnsprotec-master.dir   = "";
   inputs.src-dnsprotec-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
